@@ -1,0 +1,342 @@
+[
+  {
+    "id": "A0000000-0000-4000-A000-000000000010",
+    "title": "Morning Brew",
+    "icon": "cup.and.saucer.fill",
+    "accent": "#C4956A",
+    "body": [
+      {
+        "type": "text",
+        "style": "title",
+        "weight": "bold",
+        "content": "Morning Brew"
+      },
+      {
+        "type": "text",
+        "style": "caption",
+        "color": "secondary",
+        "content": "Rate today’s roast and log what you tried."
+      },
+      { "type": "spacer", "spacing": 10 },
+      {
+        "type": "rating",
+        "value": 4,
+        "content": "Today’s pour"
+      },
+      { "type": "spacer", "spacing": 12 },
+      {
+        "type": "card",
+        "background": "tinted",
+        "padding": 14,
+        "cornerRadius": 16,
+        "children": [
+          {
+            "type": "meter",
+            "value": 0.78,
+            "content": "Grind consistency",
+            "minHeight": 112
+          }
+        ]
+      },
+      { "type": "spacer", "spacing": 14 },
+      {
+        "type": "checklist",
+        "items": [
+          { "id": "cf1", "label": "Bloom timed", "icon": "timer" },
+          { "id": "cf2", "label": "Dial moved half-notch", "emoji": "🔧" },
+          { "id": "cf3", "label": "Shot tasted before milk", "icon": "checkmark.circle" }
+        ]
+      },
+      {
+        "type": "cta",
+        "icon": "square.and.arrow.up",
+        "content": "Share tasting notes",
+        "subtitle": "Draft copied"
+      }
+    ]
+  },
+  {
+    "id": "A0000000-0000-4000-A000-000000000011",
+    "title": "HIIT Pocket",
+    "icon": "figure.highintensity.intervaltraining",
+    "accent": "#5BD49B",
+    "body": [
+      {
+        "type": "text",
+        "style": "title",
+        "weight": "bold",
+        "content": "HIIT Pocket"
+      },
+      {
+        "type": "text",
+        "style": "body",
+        "color": "secondary",
+        "content": "Quick rounds: timer + checklist — bump intensity when you’re feeling brave."
+      },
+      { "type": "spacer", "spacing": 12 },
+      {
+        "type": "timer",
+        "duration": 45,
+        "content": "Work round",
+        "padding": 16,
+        "cornerRadius": 14
+      },
+      { "type": "spacer", "spacing": 12 },
+      {
+        "type": "progress",
+        "value": 0.55,
+        "content": "Session completion"
+      },
+      { "type": "spacer", "spacing": 14 },
+      {
+        "type": "checklist",
+        "items": [
+          { "id": "h1", "label": "Warm-up jog", "icon": "figure.walk" },
+          { "id": "h2", "label": "Burpees ×12", "emoji": "🔥" },
+          { "id": "h3", "label": "Cooldown stretch", "icon": "figure.flexibility" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A0000000-0000-4000-A000-000000000007",
+    "title": "Tonight We Watch",
+    "icon": "film.fill",
+    "accent": "#9B7EDC",
+    "body": [
+      {
+        "type": "text",
+        "style": "title",
+        "weight": "bold",
+        "content": "Tonight we watch"
+      },
+      {
+        "type": "text",
+        "style": "caption",
+        "color": "secondary",
+        "content": "Swipe the pile — thumbs-up stays in the queue."
+      },
+      { "type": "spacer", "spacing": 12 },
+      {
+        "type": "swipe",
+        "items": [
+          {
+            "id": "mv1",
+            "label": "Past Lives",
+            "subtitle": "2023 · romance · gentle tears",
+            "emoji": "🎬"
+          },
+          {
+            "id": "mv2",
+            "label": "Everything Everywhere",
+            "subtitle": "2022 · chaos bagel canon",
+            "emoji": "🥯"
+          },
+          {
+            "id": "mv3",
+            "label": "Paddington 2",
+            "subtitle": "2017 · peak cinema",
+            "emoji": "🐻"
+          }
+        ]
+      },
+      { "type": "spacer", "spacing": 14 },
+      {
+        "type": "poll",
+        "content": "Snack strategy?",
+        "items": [
+          { "id": "sn1", "label": "Savory popcorn" },
+          { "id": "sn2", "label": "Frozen mango" },
+          { "id": "sn3", "label": "Whatever’s left in the cupboard" }
+        ]
+      },
+      { "type": "spacer", "spacing": 10 },
+      {
+        "type": "tagcloud",
+        "spacing": 10,
+        "items": [
+          { "id": "tg1", "label": "cozy", "color": "accent" },
+          { "id": "tg2", "label": "subtitle crew", "color": "warning" },
+          { "id": "tg3", "label": "no spoilers", "color": "success" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A0000000-0000-4000-A000-000000000008",
+    "title": "Late Checkout",
+    "icon": "sparkles.rectangle.stack.fill",
+    "accent": "#FF3B30",
+    "body": [
+      {
+        "type": "badge",
+        "style": "sticker",
+        "color": "accent",
+        "content": "TONIGHT",
+        "rotation": -3,
+        "maxWidth": 110
+      },
+      {
+        "type": "text",
+        "style": "hero",
+        "weight": "black",
+        "content": "Late Checkout"
+      },
+      {
+        "type": "text",
+        "style": "body",
+        "color": "secondary",
+        "content": "Rooftop pregame board: lock the fit, pulse the guest list, and get people moving."
+      },
+      { "type": "spacer", "spacing": 10 },
+      {
+        "type": "card",
+        "style": "poster",
+        "padding": 16,
+        "cornerRadius": 20,
+        "children": [
+          {
+            "type": "text",
+            "style": "kicker",
+            "color": "accent",
+            "content": "Guest list pulse"
+          },
+          {
+            "type": "grid",
+            "style": "adaptive",
+            "itemWidth": 110,
+            "spacing": 10,
+            "children": [
+              {
+                "type": "card",
+                "style": "outline",
+                "padding": 12,
+                "children": [
+                  { "type": "text", "style": "stat", "content": "18" },
+                  { "type": "text", "style": "caption", "color": "secondary", "content": "confirmed" }
+                ]
+              },
+              {
+                "type": "card",
+                "style": "outline",
+                "padding": 12,
+                "children": [
+                  { "type": "text", "style": "stat", "content": "4" },
+                  { "type": "text", "style": "caption", "color": "secondary", "content": "maybe" }
+                ]
+              },
+              {
+                "type": "card",
+                "style": "outline",
+                "padding": 12,
+                "children": [
+                  { "type": "text", "style": "stat", "content": "2" },
+                  { "type": "text", "style": "caption", "color": "secondary", "content": "late" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      { "type": "spacer", "spacing": 10 },
+      {
+        "type": "hstack",
+        "style": "split",
+        "spacing": 10,
+        "children": [
+          {
+            "type": "card",
+            "style": "accent",
+            "children": [
+              { "type": "timer", "content": "Doors", "duration": 2700 }
+            ]
+          },
+          {
+            "type": "card",
+            "style": "glass",
+            "children": [
+              {
+                "type": "poll",
+                "content": "Fit check?",
+                "items": [
+                  { "id": "fit1", "label": "Black on black" },
+                  { "id": "fit2", "label": "Silver chaos" },
+                  { "id": "fit3", "label": "Borrowed jacket" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A0000000-0000-4000-A000-000000000009",
+    "title": "Afterglow Dump",
+    "icon": "camera.aperture",
+    "accent": "#E56A9A",
+    "body": [
+      {
+        "type": "badge",
+        "style": "outline",
+        "color": "accent",
+        "content": "24 photos",
+        "maxWidth": 120
+      },
+      {
+        "type": "text",
+        "style": "hero",
+        "weight": "black",
+        "content": "Afterglow Dump"
+      },
+      {
+        "type": "text",
+        "style": "quote",
+        "color": "secondary",
+        "content": "Disposable-camera energy, but make it Sunday morning."
+      },
+      { "type": "spacer", "spacing": 12 },
+      {
+        "type": "gallery",
+        "style": "collage",
+        "minHeight": 260,
+        "urls": [
+          "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=1200&q=80",
+          "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=900&q=80",
+          "https://images.unsplash.com/photo-1511988617509-a57c8a288659?w=900&q=80"
+        ]
+      },
+      { "type": "spacer", "spacing": 10 },
+      {
+        "type": "grid",
+        "style": "adaptive",
+        "itemWidth": 140,
+        "spacing": 10,
+        "children": [
+          {
+            "type": "card",
+            "style": "outline",
+            "children": [
+              { "type": "text", "style": "heading", "content": "Best frame" },
+              { "type": "text", "style": "caption", "color": "secondary", "content": "Pink flash on the fire escape." }
+            ]
+          },
+          {
+            "type": "card",
+            "style": "outline",
+            "children": [
+              { "type": "tagcloud",
+                "spacing": 8,
+                "items": [
+                  { "id": "m1", "label": "blurry", "color": "accent" },
+                  { "id": "m2", "label": "flash", "color": "warning" },
+                  { "id": "m3", "label": "worth keeping", "color": "success" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
